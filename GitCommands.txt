@@ -1,0 +1,56 @@
+Git:
+
+> git config --global user.name "kalyan"
+> git config --global user.email "abc@gmail.com"
+> git config --global user.name
+> git config --global user.email 
+
+>> pwd (project working directory)
+>> git init .
+
+ls (show files)
+>> ls -a (shows hidden files)
+
+>> cat > file1 (creating a file through git bash)
+   this is line1
+
+>> cat file1    (opening inside the file)
+
+>> git status
+>> git add . (add files into commit)
+>> git log  
+
+>> git commit -m "commit"  (add changes to local vs)
+>> git log (shows commit history)
+
+>> touch file3 file4  (creating 2 file from git Bash)
+
+>> cat file3 (opening file3)
+>> vi file3 (writing inside file3)   +  -> esc + :wq (exit the file) 
+
+>> git diff  (it compares the stagingarea files <-> current    
+   working directory files)
+>> git diff --staged  (compare stagingarea files <-> local 
+   directory repository)
+>> git diff --staged HEAD (compare workingDirectory <-> 
+     localRepository)
+
+
+>> rm -rf file1  (Removing the file from the git)
+
+============================================
+Comparing the changes through commits
+
+>> git diff 8fc629  5e2242
+
+
+>> git ls-tree  (list the contents of a tree object.)
+
+===========================================
+Git Merge conflict: A Git merge conflict is an event that occurs when Git is unable to resolve the differences in code between the two commits automatically. 
+
+
+Git Fetch:
+
+
+
