@@ -1,1 +1,2 @@
 git notes
+add all the git commands
